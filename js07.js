@@ -25,3 +25,12 @@ for (i = 0, len = cars.length, res = ""; i < len; i++) {
     res += cars[i] + " is good car " + "\n";
 }
 console.log(res);
+
+// For/in and For/of
+// for/in loops through the properties of an object
+var person = {fname:"John", lname:"Doe", age:25};
+var out = "";
+for (x in person) {
+    out += person[x] + " ";
+}
+console.log(out);
