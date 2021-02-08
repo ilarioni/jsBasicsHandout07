@@ -70,3 +70,21 @@ do {
 while (r < 10);
 console.log(text1);
 
+//compare for and while loops
+var cars1 = ["fiat", "opel", "lamborgini", "peugeot"];
+var answer1 = "";
+for (w = 0; w < cars1.length; w++) {
+    answer1 += cars1[w] + "\n";
+}
+console.log(answer1);
+
+var cars2 = ["seat", "lada", "dacia", "ferrari"];
+var z = 0;
+var answer2 = "";
+while (z < cars2.length) {
+    answer2 += cars2[z] + "\n";
+    z++;
+}
+console.log(answer2);
+
+
