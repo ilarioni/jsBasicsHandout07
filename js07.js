@@ -58,3 +58,15 @@ while (k < 10) {
     k++;
 }
 console.log(answ);
+
+// do/while loop
+
+var text1 = "";
+var r = 0;
+do {
+    text1 += "This is position " + r + "\n";
+    r++;
+}
+while (r < 10);
+console.log(text1);
+
