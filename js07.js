@@ -50,3 +50,11 @@ for (z of str) {
 }
 console.log(stres);
 
+// while loop
+var answ = "";
+var k = 0;
+while (k < 10) {
+    answ += "The number is " + k + "\n";
+    k++;
+}
+console.log(answ);
