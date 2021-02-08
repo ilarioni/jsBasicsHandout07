@@ -34,3 +34,19 @@ for (x in person) {
     out += person[x] + " ";
 }
 console.log(out);
+
+// for/of loops through values of iterable objects : arrays, strings
+var auto = ["bmw", "merco", "fiat"];
+var result = "";
+for (y of auto) {
+    result += y + "\n";
+}
+console.log(result);
+
+var str = "JavaScript";
+var stres = "";
+for (z of str) {
+    stres += z + "\n";
+}
+console.log(stres);
+
