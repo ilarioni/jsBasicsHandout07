@@ -87,4 +87,18 @@ while (z < cars2.length) {
 }
 console.log(answer2);
 
+// break and continue
+// on break statement "jumpes out" of loop and continue statement "jumps over" one iteration in the loop
+var text2 = "";
+for (i = 0; i < 10; i++) {
+    if (i === 3) { break; }
+    text2 += "The result is " + i + "\n";
+}
+console.log(text2);
 
+var text3 = "";
+for (i = 0; i < 10; i++) {
+    if (i === 3) { continue; }
+    text3 += "The following result is " + i + "\n";
+}
+console.log(text3);
